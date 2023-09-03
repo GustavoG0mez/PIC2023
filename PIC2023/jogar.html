@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/jogar.css" />
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/bddefa4af7.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>ProjectPhysis</title>
+</head>
+<body>
+<a href="index.html"><i class='bx bx-x bx-lg' style="color:black"></i></a>
+<div class="container">
+  <h1 class="text-center">Vamos jogar: Forca!</h1>
+  <p class="card-text-secondary" style="text-align: center;">Vamos jogar um pouco de forca! Aproveite este divertido jogo para memorizar conceitos e palavras-chave fundamentais da termologia.</p>
+  <div class="float-right">Letras erradas: <span id='mistakes'>0</span> de <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <img id='hangmanPic' src="./images/0.jpg" alt="">
+    <p>Advinhe o conceito físico visto anteriormente:</p>
+    <p id="wordSpotlight">The word to be guessed goes here</p>
+    <div id="keyboard"></div>
+    <button class="btn btn-danger" onClick="reset()">Reniciar</button>
+    <br><br>
+    <a href="index.html" class="btn btn-success" >PAGINA PRINCIPAL</a>
+  </div> 
+</div>
+
+<script src='jogar.js'></script>
+</body>
+</html>
