@@ -1,2 +1,2 @@
 # PIC2023
-Site do trabalho de iniciação cientifica "Análise Da Efetividade De Modelos Digitais/Gamificados No Ensino Brasileiro De Física Para Jovens Do Ensino Fundamental."
+	O site é desenvolvido de forma que os alunos conseguem utilizar o website facilmente, com pouca assistência externa. Para isso, decidimos separar o site em segmentos que auxiliem o aprendizado do indivíduo, sendo esses: tela principal; apresentação da matéria; demonstração do conceito proposto; experiência gamificada e os hiperlinks que levam para os formulários. O site foi desenvolvido com as ferramentas tecnológicas como o HTML, CSS, Javascript, Bootstrap e o editor de texto Visual Studio Code.
